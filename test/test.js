@@ -11,6 +11,9 @@ describe('Fibonacci Sequence', function() {
       });
     it('Should return correct sequence for n = 5', function() {
         assert.deepEqual(fibonacci(5), [0, 1, 1, 2, 3]);
-    });  
+    });
+    it('Should return correct sequence for n = 10', function() {
+        assert.deepEqual(fibonacci(10), [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]);
+      });  
 
 });
